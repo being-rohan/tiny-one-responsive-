@@ -1,0 +1,314 @@
+*{
+	padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+                            /*############# header section css ###############*/
+.header{
+	background-color: #fcdb00;
+	padding: 60px 0 110px 0;
+}	
+
+.header .navigation{
+	background-color: #fcdb00;
+	border: none;
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+
+.navbar-right{
+	margin-right: 0;
+}
+
+.navigation .navbar-nav>li>a {
+  color : #010101;
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin-left: 50px;
+	line-height: 43px;
+}
+
+.navigation .navbar-nav li a:link, 
+.navigation .navbar-nav li a:visited{	
+    color: #010101;
+}
+
+.header .pre-heading {
+    margin: 130px 0 25px;
+    font-weight: bold;
+    font-size: 32px;
+    color: #010101;
+}
+
+.header .sec-heading{
+    margin: 0 0 20px;
+    font-size: 20px;
+    color: #313841;
+}
+					
+.header .paragraph{
+    margin-bottom: 40px;
+    color: #555555;
+}
+
+.ipadimg{
+	margin: 70px 0 0 35px;
+}
+					
+.icons li{
+	display: inline-block;
+}	
+
+.icons li a i{
+	color: black;
+	margin-right: 35px;
+}		
+
+.icons li a i{
+	transition: all 0.7s ease-in-out;
+}
+
+.icons li a:hover i,
+.icons li a:focus i,
+.icons li a:active i{
+	color :blue;
+   transform: rotate(360deg);
+}
+
+
+                                /*############# features section css ###############*/
+								
+.features{
+	padding: 120px 0 70px;
+	background-color: #ffffff;
+}	
+
+.features .pre-heading{
+	margin-bottom: 20px;
+	font-weight: bold;
+    font-size: 32px;
+    color: #010101;
+}	
+
+.features .sec-heading{
+	margin-bottom: 90px;
+	font-size: 20px;
+    color: #313841;
+}					
+
+.Ourthumbnail .pre-heading{
+	margin: 0 0 20px;
+    font-size: 22px;
+    color: #010101;
+}	
+
+.Ourthumbnail .paragraph{
+	margin-bottom: 90px;
+    font-size: 16px;
+    color: #898989;
+}	
+
+.features a i{
+	color: #010101;
+}
+
+
+                             /*############# footer section css ###############*/
+
+.footer{
+	background-color: #010101;
+	padding: 95px 0 140px;
+}
+
+.footer .pre-heading{
+	color: #fcdb00;
+	font-size: 32px;
+	margin-bottom: 15px;
+}
+
+.footer .sec-heading{
+	color: #898989;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+.footer .form-control {
+	display: inline-block;
+    width: calc(100% - 300px);
+    height: 50px;
+    padding: 0 25px;
+    color: #898989;
+    font-size: 16px;
+    margin-bottom: 75px;
+}
+
+.footer .btn-default {
+    color: #010101;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #fbdb00;
+    border-color: #ffff;
+    width: 125px;
+    height: 50px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.footer .icons li a i {
+    color: #fcdb00;
+    margin: 0 25px 130px;
+}
+
+.footer .footerLinks li{
+	font-size: 16px;
+	color: #ffff;
+	list-style: none;
+}
+
+.footer .footerLinks li a{
+	color: #ffff;
+	text-decoration: none;
+}
+
+
+
+
+@media all and (max-width:768px) {
+	.header{
+     padding: 40px 0 40px;
+    }
+	.navigation .navbar-toggle {
+    border-color: #010101;
+    }
+	.header .pre-heading {
+    margin: 50px 0 25px;
+    }
+	.header .paragraph {
+    margin-bottom: 25px;
+    }
+	.ipadimg {
+    margin: 50px 0 0 40px;
+     }
+	.features {
+    padding-top: 70px;
+    }
+	.Ourthumbnail .paragraph {
+    margin-bottom: 35px;
+	}
+	.footer{
+    padding: 95px 0 95px;
+	}
+	.footer .form-control {
+    width: 100%;
+    margin-bottom: 30px;
+	}
+	.footer .btn-default {
+    width: 100%;
+    margin: 0 0 30px;
+	}
+	.footer .icons li a i {
+    margin: 0 15px 50px;
+	}
+	.footerLinks{
+		margin-bottom: 30px;
+	}
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
